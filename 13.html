@@ -1,0 +1,185 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1.0"
+    />
+    <title>FFUF Report - </title>
+
+    
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+	/>
+	<link 
+	  rel="stylesheet" 
+	  type="text/css" 
+	  href="https://cdn.datatables.net/1.10.20/css/jquery.dataTables.css"
+	/>
+  
+  </head>
+
+  <body>
+    <nav>
+      <div class="nav-wrapper">
+        <a href="#" class="brand-logo">FFUF</a>
+        <ul id="nav-mobile" class="right hide-on-med-and-down">
+        </ul>
+      </div>
+    </nav>
+
+    <main class="section no-pad-bot" id="index-banner">
+      <div class="container">
+        <br /><br />
+        <h1 class="header center ">FFUF Report</h1>
+        <div class="row center">
+
+		<pre>/var/www/html/recon/ffuf -w /var/www/html/recon/all -u https://bandhanbankonline.com/Corporate/app/creditcard/history/FUZZ -X GET -rate 190 -o /var/www/html/13.html -of html -H User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36 -ac -e .jsp -t 200</pre>
+		<pre>2022-05-19T15:26:08&#43;02:00</pre>
+
+   <table id="ffufreport">
+        <thead>
+        <div style="display:none">
+|result_raw|StatusCode|Input|Position|ContentLength|ContentWords|ContentLines|
+        </div>
+          <tr>
+              <th>Status</th>
+              <th>FUZZ</th>
+
+			  <th>URL</th>
+			  <th>Redirect location</th>
+              <th>Position</th>
+              <th>Length</th>
+              <th>Words</th>
+			  <th>Lines</th>
+			  <th>Type</th>
+        <th>Duration</th>
+			  <th>Resultfile</th>
+          </tr>
+        </thead>
+
+        <tbody>
+			
+                <div style="display:none">
+|result_raw|302|;/bin/querybuilder.json|https://bandhanbankonline.com/Corporate/app/creditcard/history/;/bin/querybuilder.json|https://cibcorapp:9083/Corporate/app/creditcard/history/;/bin/querybuilder.json/|45131|0|1|1||
+                </div>
+                <tr class="result-302" style="background-color: #bbbbe6;">
+                    <td><font color="black" class="status-code">302</font></td>
+                    
+                        <td>;/bin/querybuilder.json</td>
+                    
+                    <td><a href="https://bandhanbankonline.com/Corporate/app/creditcard/history/;/bin/querybuilder.json">https://bandhanbankonline.com/Corporate/app/creditcard/history/;/bin/querybuilder.json</a></td>
+                    <td><a href="https://cibcorapp:9083/Corporate/app/creditcard/history/;/bin/querybuilder.json/">https://cibcorapp:9083/Corporate/app/creditcard/history/;/bin/querybuilder.json/</a></td>
+                    <td>45131</td>
+                    <td>0</td>
+                    <td>1</td>
+					<td>1</td>
+					<td></td>
+          <td>175.478862ms</td>
+                    <td></td>
+                </tr>
+            
+                <div style="display:none">
+|result_raw|302|;/bin/querybuilder.json.jsp|https://bandhanbankonline.com/Corporate/app/creditcard/history/;/bin/querybuilder.json.jsp|https://cibcorapp:9083/Corporate/app/creditcard/history/;/bin/querybuilder.json.jsp/|45132|0|1|1||
+                </div>
+                <tr class="result-302" style="background-color: #bbbbe6;">
+                    <td><font color="black" class="status-code">302</font></td>
+                    
+                        <td>;/bin/querybuilder.json.jsp</td>
+                    
+                    <td><a href="https://bandhanbankonline.com/Corporate/app/creditcard/history/;/bin/querybuilder.json.jsp">https://bandhanbankonline.com/Corporate/app/creditcard/history/;/bin/querybuilder.json.jsp</a></td>
+                    <td><a href="https://cibcorapp:9083/Corporate/app/creditcard/history/;/bin/querybuilder.json.jsp/">https://cibcorapp:9083/Corporate/app/creditcard/history/;/bin/querybuilder.json.jsp/</a></td>
+                    <td>45132</td>
+                    <td>0</td>
+                    <td>1</td>
+					<td>1</td>
+					<td></td>
+          <td>170.966052ms</td>
+                    <td></td>
+                </tr>
+            
+                <div style="display:none">
+|result_raw|500|j_security_check|https://bandhanbankonline.com/Corporate/app/creditcard/history/j_security_check||174411|2598|577|70|text/html;charset=ISO-8859-1|
+                </div>
+                <tr class="result-500" style="background-color: #de8dc1;">
+                    <td><font color="black" class="status-code">500</font></td>
+                    
+                        <td>j_security_check</td>
+                    
+                    <td><a href="https://bandhanbankonline.com/Corporate/app/creditcard/history/j_security_check">https://bandhanbankonline.com/Corporate/app/creditcard/history/j_security_check</a></td>
+                    <td><a href=""></a></td>
+                    <td>174411</td>
+                    <td>2598</td>
+                    <td>577</td>
+					<td>70</td>
+					<td>text/html;charset=ISO-8859-1</td>
+          <td>297.35504ms</td>
+                    <td></td>
+                </tr>
+            
+                <div style="display:none">
+|result_raw|500|j_security_check.jsp|https://bandhanbankonline.com/Corporate/app/creditcard/history/j_security_check.jsp||174412|2598|577|70|text/html;charset=ISO-8859-1|
+                </div>
+                <tr class="result-500" style="background-color: #de8dc1;">
+                    <td><font color="black" class="status-code">500</font></td>
+                    
+                        <td>j_security_check.jsp</td>
+                    
+                    <td><a href="https://bandhanbankonline.com/Corporate/app/creditcard/history/j_security_check.jsp">https://bandhanbankonline.com/Corporate/app/creditcard/history/j_security_check.jsp</a></td>
+                    <td><a href=""></a></td>
+                    <td>174412</td>
+                    <td>2598</td>
+                    <td>577</td>
+					<td>70</td>
+					<td>text/html;charset=ISO-8859-1</td>
+          <td>299.182267ms</td>
+                    <td></td>
+                </tr>
+            
+        </tbody>
+      </table>
+
+        </div>
+        <br /><br />
+      </div>
+    </main>
+
+    
+	<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.10.20/js/jquery.dataTables.js"></script>
+    <script>
+    $(document).ready(function() {
+        $('#ffufreport').DataTable(
+            {
+                "aLengthMenu": [
+                    [250, 500, 1000, 2500, -1],
+                    [250, 500, 1000, 2500, "All"]
+                ]
+            }
+        )
+        $('select').formSelect();
+        });
+    </script>
+    <style>
+      body {
+        display: flex;
+        min-height: 100vh;
+        flex-direction: column;
+      }
+
+      main {
+        flex: 1 0 auto;
+      }
+    </style>
+  </body>
+</html>
+
+	

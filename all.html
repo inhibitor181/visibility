@@ -1,0 +1,774 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1.0"
+    />
+    <title>FFUF Report - </title>
+
+    
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+	/>
+	<link 
+	  rel="stylesheet" 
+	  type="text/css" 
+	  href="https://cdn.datatables.net/1.10.20/css/jquery.dataTables.css"
+	/>
+  
+  </head>
+
+  <body>
+    <nav>
+      <div class="nav-wrapper">
+        <a href="#" class="brand-logo">FFUF</a>
+        <ul id="nav-mobile" class="right hide-on-med-and-down">
+        </ul>
+      </div>
+    </nav>
+
+    <main class="section no-pad-bot" id="index-banner">
+      <div class="container">
+        <br /><br />
+        <h1 class="header center ">FFUF Report</h1>
+        <div class="row center">
+
+		<pre>/var/www/html/recon/ffuf -w /var/www/html/recon/all -u https://bandhanbankonline.com/Corporate/app/FUZZ -X GET -rate 400 -o /var/www/html/all.html -of html -H User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36 -ac -e .jsp -t 400 -recursion -recursion-depth 4</pre>
+		<pre>2022-05-19T14:26:54&#43;02:00</pre>
+
+   <table id="ffufreport">
+        <thead>
+        <div style="display:none">
+|result_raw|StatusCode|Input|Position|ContentLength|ContentWords|ContentLines|
+        </div>
+          <tr>
+              <th>Status</th>
+              <th>FUZZ</th>
+
+			  <th>URL</th>
+			  <th>Redirect location</th>
+              <th>Position</th>
+              <th>Length</th>
+              <th>Words</th>
+			  <th>Lines</th>
+			  <th>Type</th>
+        <th>Duration</th>
+			  <th>Resultfile</th>
+          </tr>
+        </thead>
+
+        <tbody>
+			
+                <div style="display:none">
+|result_raw|302|applications|https://bandhanbankonline.com/Corporate/app/applications|https://cibcorapp:9083/Corporate/app/applications/|28533|0|1|1||
+                </div>
+                <tr class="result-302" style="background-color: #bbbbe6;">
+                    <td><font color="black" class="status-code">302</font></td>
+                    
+                        <td>applications</td>
+                    
+                    <td><a href="https://bandhanbankonline.com/Corporate/app/applications">https://bandhanbankonline.com/Corporate/app/applications</a></td>
+                    <td><a href="https://cibcorapp:9083/Corporate/app/applications/">https://cibcorapp:9083/Corporate/app/applications/</a></td>
+                    <td>28533</td>
+                    <td>0</td>
+                    <td>1</td>
+					<td>1</td>
+					<td></td>
+          <td>469.313023ms</td>
+                    <td></td>
+                </tr>
+            
+                <div style="display:none">
+|result_raw|302|;/bin/querybuilder.json|https://bandhanbankonline.com/Corporate/app/;/bin/querybuilder.json|https://cibcorapp:9083/Corporate/app/;/bin/querybuilder.json/|45131|0|1|1||
+                </div>
+                <tr class="result-302" style="background-color: #bbbbe6;">
+                    <td><font color="black" class="status-code">302</font></td>
+                    
+                        <td>;/bin/querybuilder.json</td>
+                    
+                    <td><a href="https://bandhanbankonline.com/Corporate/app/;/bin/querybuilder.json">https://bandhanbankonline.com/Corporate/app/;/bin/querybuilder.json</a></td>
+                    <td><a href="https://cibcorapp:9083/Corporate/app/;/bin/querybuilder.json/">https://cibcorapp:9083/Corporate/app/;/bin/querybuilder.json/</a></td>
+                    <td>45131</td>
+                    <td>0</td>
+                    <td>1</td>
+					<td>1</td>
+					<td></td>
+          <td>265.236746ms</td>
+                    <td></td>
+                </tr>
+            
+                <div style="display:none">
+|result_raw|302|;/bin/querybuilder.json.jsp|https://bandhanbankonline.com/Corporate/app/;/bin/querybuilder.json.jsp|https://cibcorapp:9083/Corporate/app/;/bin/querybuilder.json.jsp/|45132|0|1|1||
+                </div>
+                <tr class="result-302" style="background-color: #bbbbe6;">
+                    <td><font color="black" class="status-code">302</font></td>
+                    
+                        <td>;/bin/querybuilder.json.jsp</td>
+                    
+                    <td><a href="https://bandhanbankonline.com/Corporate/app/;/bin/querybuilder.json.jsp">https://bandhanbankonline.com/Corporate/app/;/bin/querybuilder.json.jsp</a></td>
+                    <td><a href="https://cibcorapp:9083/Corporate/app/;/bin/querybuilder.json.jsp/">https://cibcorapp:9083/Corporate/app/;/bin/querybuilder.json.jsp/</a></td>
+                    <td>45132</td>
+                    <td>0</td>
+                    <td>1</td>
+					<td>1</td>
+					<td></td>
+          <td>274.13483ms</td>
+                    <td></td>
+                </tr>
+            
+                <div style="display:none">
+|result_raw|302|calculator|https://bandhanbankonline.com/Corporate/app/calculator|https://cibcorapp:9083/Corporate/app/calculator/|56695|0|1|1||
+                </div>
+                <tr class="result-302" style="background-color: #bbbbe6;">
+                    <td><font color="black" class="status-code">302</font></td>
+                    
+                        <td>calculator</td>
+                    
+                    <td><a href="https://bandhanbankonline.com/Corporate/app/calculator">https://bandhanbankonline.com/Corporate/app/calculator</a></td>
+                    <td><a href="https://cibcorapp:9083/Corporate/app/calculator/">https://cibcorapp:9083/Corporate/app/calculator/</a></td>
+                    <td>56695</td>
+                    <td>0</td>
+                    <td>1</td>
+					<td>1</td>
+					<td></td>
+          <td>302.194316ms</td>
+                    <td></td>
+                </tr>
+            
+                <div style="display:none">
+|result_raw|302|creditcard|https://bandhanbankonline.com/Corporate/app/creditcard|https://cibcorapp:9083/Corporate/app/creditcard/|80649|0|1|1||
+                </div>
+                <tr class="result-302" style="background-color: #bbbbe6;">
+                    <td><font color="black" class="status-code">302</font></td>
+                    
+                        <td>creditcard</td>
+                    
+                    <td><a href="https://bandhanbankonline.com/Corporate/app/creditcard">https://bandhanbankonline.com/Corporate/app/creditcard</a></td>
+                    <td><a href="https://cibcorapp:9083/Corporate/app/creditcard/">https://cibcorapp:9083/Corporate/app/creditcard/</a></td>
+                    <td>80649</td>
+                    <td>0</td>
+                    <td>1</td>
+					<td>1</td>
+					<td></td>
+          <td>217.755586ms</td>
+                    <td></td>
+                </tr>
+            
+                <div style="display:none">
+|result_raw|302|crm|https://bandhanbankonline.com/Corporate/app/crm|https://cibcorapp:9083/Corporate/app/crm/|80961|0|1|1||
+                </div>
+                <tr class="result-302" style="background-color: #bbbbe6;">
+                    <td><font color="black" class="status-code">302</font></td>
+                    
+                        <td>crm</td>
+                    
+                    <td><a href="https://bandhanbankonline.com/Corporate/app/crm">https://bandhanbankonline.com/Corporate/app/crm</a></td>
+                    <td><a href="https://cibcorapp:9083/Corporate/app/crm/">https://cibcorapp:9083/Corporate/app/crm/</a></td>
+                    <td>80961</td>
+                    <td>0</td>
+                    <td>1</td>
+					<td>1</td>
+					<td></td>
+          <td>196.783699ms</td>
+                    <td></td>
+                </tr>
+            
+                <div style="display:none">
+|result_raw|500|custom.jsp|https://bandhanbankonline.com/Corporate/app/custom.jsp||83754|2598|577|70|text/html;charset=ISO8859_6|
+                </div>
+                <tr class="result-500" style="background-color: #de8dc1;">
+                    <td><font color="black" class="status-code">500</font></td>
+                    
+                        <td>custom.jsp</td>
+                    
+                    <td><a href="https://bandhanbankonline.com/Corporate/app/custom.jsp">https://bandhanbankonline.com/Corporate/app/custom.jsp</a></td>
+                    <td><a href=""></a></td>
+                    <td>83754</td>
+                    <td>2598</td>
+                    <td>577</td>
+					<td>70</td>
+					<td>text/html;charset=ISO8859_6</td>
+          <td>336.556692ms</td>
+                    <td></td>
+                </tr>
+            
+                <div style="display:none">
+|result_raw|302|dap|https://bandhanbankonline.com/Corporate/app/dap|https://cibcorapp:9083/Corporate/app/dap/|86699|0|1|1||
+                </div>
+                <tr class="result-302" style="background-color: #bbbbe6;">
+                    <td><font color="black" class="status-code">302</font></td>
+                    
+                        <td>dap</td>
+                    
+                    <td><a href="https://bandhanbankonline.com/Corporate/app/dap">https://bandhanbankonline.com/Corporate/app/dap</a></td>
+                    <td><a href="https://cibcorapp:9083/Corporate/app/dap/">https://cibcorapp:9083/Corporate/app/dap/</a></td>
+                    <td>86699</td>
+                    <td>0</td>
+                    <td>1</td>
+					<td>1</td>
+					<td></td>
+          <td>919.596645ms</td>
+                    <td></td>
+                </tr>
+            
+                <div style="display:none">
+|result_raw|302|deposit|https://bandhanbankonline.com/Corporate/app/deposit|https://cibcorapp:9083/Corporate/app/deposit/|92575|0|1|1||
+                </div>
+                <tr class="result-302" style="background-color: #bbbbe6;">
+                    <td><font color="black" class="status-code">302</font></td>
+                    
+                        <td>deposit</td>
+                    
+                    <td><a href="https://bandhanbankonline.com/Corporate/app/deposit">https://bandhanbankonline.com/Corporate/app/deposit</a></td>
+                    <td><a href="https://cibcorapp:9083/Corporate/app/deposit/">https://cibcorapp:9083/Corporate/app/deposit/</a></td>
+                    <td>92575</td>
+                    <td>0</td>
+                    <td>1</td>
+					<td>1</td>
+					<td></td>
+          <td>282.505004ms</td>
+                    <td></td>
+                </tr>
+            
+                <div style="display:none">
+|result_raw|302|direct|https://bandhanbankonline.com/Corporate/app/direct|https://cibcorapp:9083/Corporate/app/direct/|95297|0|1|1||
+                </div>
+                <tr class="result-302" style="background-color: #bbbbe6;">
+                    <td><font color="black" class="status-code">302</font></td>
+                    
+                        <td>direct</td>
+                    
+                    <td><a href="https://bandhanbankonline.com/Corporate/app/direct">https://bandhanbankonline.com/Corporate/app/direct</a></td>
+                    <td><a href="https://cibcorapp:9083/Corporate/app/direct/">https://cibcorapp:9083/Corporate/app/direct/</a></td>
+                    <td>95297</td>
+                    <td>0</td>
+                    <td>1</td>
+					<td>1</td>
+					<td></td>
+          <td>197.581329ms</td>
+                    <td></td>
+                </tr>
+            
+                <div style="display:none">
+|result_raw|302|error|https://bandhanbankonline.com/Corporate/app/error|https://cibcorapp:9083/Corporate/app/error/|110939|0|1|1||
+                </div>
+                <tr class="result-302" style="background-color: #bbbbe6;">
+                    <td><font color="black" class="status-code">302</font></td>
+                    
+                        <td>error</td>
+                    
+                    <td><a href="https://bandhanbankonline.com/Corporate/app/error">https://bandhanbankonline.com/Corporate/app/error</a></td>
+                    <td><a href="https://cibcorapp:9083/Corporate/app/error/">https://cibcorapp:9083/Corporate/app/error/</a></td>
+                    <td>110939</td>
+                    <td>0</td>
+                    <td>1</td>
+					<td>1</td>
+					<td></td>
+          <td>272.547183ms</td>
+                    <td></td>
+                </tr>
+            
+                <div style="display:none">
+|result_raw|302|fap|https://bandhanbankonline.com/Corporate/app/fap|https://cibcorapp:9083/Corporate/app/fap/|117469|0|1|1||
+                </div>
+                <tr class="result-302" style="background-color: #bbbbe6;">
+                    <td><font color="black" class="status-code">302</font></td>
+                    
+                        <td>fap</td>
+                    
+                    <td><a href="https://bandhanbankonline.com/Corporate/app/fap">https://bandhanbankonline.com/Corporate/app/fap</a></td>
+                    <td><a href="https://cibcorapp:9083/Corporate/app/fap/">https://cibcorapp:9083/Corporate/app/fap/</a></td>
+                    <td>117469</td>
+                    <td>0</td>
+                    <td>1</td>
+					<td>1</td>
+					<td></td>
+          <td>347.906186ms</td>
+                    <td></td>
+                </tr>
+            
+                <div style="display:none">
+|result_raw|302|forgotpassword|https://bandhanbankonline.com/Corporate/app/forgotpassword|https://cibcorapp:9083/Corporate/app/forgotpassword/|125769|0|1|1||
+                </div>
+                <tr class="result-302" style="background-color: #bbbbe6;">
+                    <td><font color="black" class="status-code">302</font></td>
+                    
+                        <td>forgotpassword</td>
+                    
+                    <td><a href="https://bandhanbankonline.com/Corporate/app/forgotpassword">https://bandhanbankonline.com/Corporate/app/forgotpassword</a></td>
+                    <td><a href="https://cibcorapp:9083/Corporate/app/forgotpassword/">https://cibcorapp:9083/Corporate/app/forgotpassword/</a></td>
+                    <td>125769</td>
+                    <td>0</td>
+                    <td>1</td>
+					<td>1</td>
+					<td></td>
+          <td>188.156751ms</td>
+                    <td></td>
+                </tr>
+            
+                <div style="display:none">
+|result_raw|302|fx|https://bandhanbankonline.com/Corporate/app/fx|https://cibcorapp:9083/Corporate/app/fx/|131229|0|1|1||
+                </div>
+                <tr class="result-302" style="background-color: #bbbbe6;">
+                    <td><font color="black" class="status-code">302</font></td>
+                    
+                        <td>fx</td>
+                    
+                    <td><a href="https://bandhanbankonline.com/Corporate/app/fx">https://bandhanbankonline.com/Corporate/app/fx</a></td>
+                    <td><a href="https://cibcorapp:9083/Corporate/app/fx/">https://cibcorapp:9083/Corporate/app/fx/</a></td>
+                    <td>131229</td>
+                    <td>0</td>
+                    <td>1</td>
+					<td>1</td>
+					<td></td>
+          <td>264.501205ms</td>
+                    <td></td>
+                </tr>
+            
+                <div style="display:none">
+|result_raw|302|general|https://bandhanbankonline.com/Corporate/app/general|https://cibcorapp:9083/Corporate/app/general/|133155|0|1|1||
+                </div>
+                <tr class="result-302" style="background-color: #bbbbe6;">
+                    <td><font color="black" class="status-code">302</font></td>
+                    
+                        <td>general</td>
+                    
+                    <td><a href="https://bandhanbankonline.com/Corporate/app/general">https://bandhanbankonline.com/Corporate/app/general</a></td>
+                    <td><a href="https://cibcorapp:9083/Corporate/app/general/">https://cibcorapp:9083/Corporate/app/general/</a></td>
+                    <td>133155</td>
+                    <td>0</td>
+                    <td>1</td>
+					<td>1</td>
+					<td></td>
+          <td>185.815314ms</td>
+                    <td></td>
+                </tr>
+            
+                <div style="display:none">
+|result_raw|302|home|https://bandhanbankonline.com/Corporate/app/home|https://cibcorapp:9083/Corporate/app/home/|146543|0|1|1||
+                </div>
+                <tr class="result-302" style="background-color: #bbbbe6;">
+                    <td><font color="black" class="status-code">302</font></td>
+                    
+                        <td>home</td>
+                    
+                    <td><a href="https://bandhanbankonline.com/Corporate/app/home">https://bandhanbankonline.com/Corporate/app/home</a></td>
+                    <td><a href="https://cibcorapp:9083/Corporate/app/home/">https://cibcorapp:9083/Corporate/app/home/</a></td>
+                    <td>146543</td>
+                    <td>0</td>
+                    <td>1</td>
+					<td>1</td>
+					<td></td>
+          <td>247.601623ms</td>
+                    <td></td>
+                </tr>
+            
+                <div style="display:none">
+|result_raw|200|investment.jsp|https://bandhanbankonline.com/Corporate/app/investment.jsp||165058|8251|612|301|text/html;charset=ISO-8859-1|
+                </div>
+                <tr class="result-200" style="background-color: #adea9e;">
+                    <td><font color="black" class="status-code">200</font></td>
+                    
+                        <td>investment.jsp</td>
+                    
+                    <td><a href="https://bandhanbankonline.com/Corporate/app/investment.jsp">https://bandhanbankonline.com/Corporate/app/investment.jsp</a></td>
+                    <td><a href=""></a></td>
+                    <td>165058</td>
+                    <td>8251</td>
+                    <td>612</td>
+					<td>301</td>
+					<td>text/html;charset=ISO-8859-1</td>
+          <td>301.98769ms</td>
+                    <td></td>
+                </tr>
+            
+                <div style="display:none">
+|result_raw|500|j_security_check|https://bandhanbankonline.com/Corporate/app/j_security_check||174411|2598|577|70|text/html;charset=ISO-8859-1|
+                </div>
+                <tr class="result-500" style="background-color: #de8dc1;">
+                    <td><font color="black" class="status-code">500</font></td>
+                    
+                        <td>j_security_check</td>
+                    
+                    <td><a href="https://bandhanbankonline.com/Corporate/app/j_security_check">https://bandhanbankonline.com/Corporate/app/j_security_check</a></td>
+                    <td><a href=""></a></td>
+                    <td>174411</td>
+                    <td>2598</td>
+                    <td>577</td>
+					<td>70</td>
+					<td>text/html;charset=ISO-8859-1</td>
+          <td>400.277067ms</td>
+                    <td></td>
+                </tr>
+            
+                <div style="display:none">
+|result_raw|500|j_security_check.jsp|https://bandhanbankonline.com/Corporate/app/j_security_check.jsp||174412|2598|577|70|text/html;charset=ISO-8859-1|
+                </div>
+                <tr class="result-500" style="background-color: #de8dc1;">
+                    <td><font color="black" class="status-code">500</font></td>
+                    
+                        <td>j_security_check.jsp</td>
+                    
+                    <td><a href="https://bandhanbankonline.com/Corporate/app/j_security_check.jsp">https://bandhanbankonline.com/Corporate/app/j_security_check.jsp</a></td>
+                    <td><a href=""></a></td>
+                    <td>174412</td>
+                    <td>2598</td>
+                    <td>577</td>
+					<td>70</td>
+					<td>text/html;charset=ISO-8859-1</td>
+          <td>400.729897ms</td>
+                    <td></td>
+                </tr>
+            
+                <div style="display:none">
+|result_raw|302|leftmenu|https://bandhanbankonline.com/Corporate/app/leftmenu|https://cibcorapp:9083/Corporate/app/leftmenu/|182559|0|1|1||
+                </div>
+                <tr class="result-302" style="background-color: #bbbbe6;">
+                    <td><font color="black" class="status-code">302</font></td>
+                    
+                        <td>leftmenu</td>
+                    
+                    <td><a href="https://bandhanbankonline.com/Corporate/app/leftmenu">https://bandhanbankonline.com/Corporate/app/leftmenu</a></td>
+                    <td><a href="https://cibcorapp:9083/Corporate/app/leftmenu/">https://cibcorapp:9083/Corporate/app/leftmenu/</a></td>
+                    <td>182559</td>
+                    <td>0</td>
+                    <td>1</td>
+					<td>1</td>
+					<td></td>
+          <td>367.012948ms</td>
+                    <td></td>
+                </tr>
+            
+                <div style="display:none">
+|result_raw|302|loan|https://bandhanbankonline.com/Corporate/app/loan|https://cibcorapp:9083/Corporate/app/loan/|187449|0|1|1||
+                </div>
+                <tr class="result-302" style="background-color: #bbbbe6;">
+                    <td><font color="black" class="status-code">302</font></td>
+                    
+                        <td>loan</td>
+                    
+                    <td><a href="https://bandhanbankonline.com/Corporate/app/loan">https://bandhanbankonline.com/Corporate/app/loan</a></td>
+                    <td><a href="https://cibcorapp:9083/Corporate/app/loan/">https://cibcorapp:9083/Corporate/app/loan/</a></td>
+                    <td>187449</td>
+                    <td>0</td>
+                    <td>1</td>
+					<td>1</td>
+					<td></td>
+          <td>217.185356ms</td>
+                    <td></td>
+                </tr>
+            
+                <div style="display:none">
+|result_raw|500|loading.jsp|https://bandhanbankonline.com/Corporate/app/loading.jsp||187350|2598|577|70|text/html;charset=ISO8859_6|
+                </div>
+                <tr class="result-500" style="background-color: #de8dc1;">
+                    <td><font color="black" class="status-code">500</font></td>
+                    
+                        <td>loading.jsp</td>
+                    
+                    <td><a href="https://bandhanbankonline.com/Corporate/app/loading.jsp">https://bandhanbankonline.com/Corporate/app/loading.jsp</a></td>
+                    <td><a href=""></a></td>
+                    <td>187350</td>
+                    <td>2598</td>
+                    <td>577</td>
+					<td>70</td>
+					<td>text/html;charset=ISO8859_6</td>
+          <td>186.848767ms</td>
+                    <td></td>
+                </tr>
+            
+                <div style="display:none">
+|result_raw|200|logon.jsp|https://bandhanbankonline.com/Corporate/app/logon.jsp||189254|33967|2913|932|text/html;charset=ISO-8859-1|
+                </div>
+                <tr class="result-200" style="background-color: #adea9e;">
+                    <td><font color="black" class="status-code">200</font></td>
+                    
+                        <td>logon.jsp</td>
+                    
+                    <td><a href="https://bandhanbankonline.com/Corporate/app/logon.jsp">https://bandhanbankonline.com/Corporate/app/logon.jsp</a></td>
+                    <td><a href=""></a></td>
+                    <td>189254</td>
+                    <td>33967</td>
+                    <td>2913</td>
+					<td>932</td>
+					<td>text/html;charset=ISO-8859-1</td>
+          <td>261.173009ms</td>
+                    <td></td>
+                </tr>
+            
+                <div style="display:none">
+|result_raw|302|messagecenter|https://bandhanbankonline.com/Corporate/app/messagecenter|https://cibcorapp:9083/Corporate/app/messagecenter/|201829|0|1|1||
+                </div>
+                <tr class="result-302" style="background-color: #bbbbe6;">
+                    <td><font color="black" class="status-code">302</font></td>
+                    
+                        <td>messagecenter</td>
+                    
+                    <td><a href="https://bandhanbankonline.com/Corporate/app/messagecenter">https://bandhanbankonline.com/Corporate/app/messagecenter</a></td>
+                    <td><a href="https://cibcorapp:9083/Corporate/app/messagecenter/">https://cibcorapp:9083/Corporate/app/messagecenter/</a></td>
+                    <td>201829</td>
+                    <td>0</td>
+                    <td>1</td>
+					<td>1</td>
+					<td></td>
+          <td>359.351244ms</td>
+                    <td></td>
+                </tr>
+            
+                <div style="display:none">
+|result_raw|302|notify|https://bandhanbankonline.com/Corporate/app/notify|https://cibcorapp:9083/Corporate/app/notify/|225051|0|1|1||
+                </div>
+                <tr class="result-302" style="background-color: #bbbbe6;">
+                    <td><font color="black" class="status-code">302</font></td>
+                    
+                        <td>notify</td>
+                    
+                    <td><a href="https://bandhanbankonline.com/Corporate/app/notify">https://bandhanbankonline.com/Corporate/app/notify</a></td>
+                    <td><a href="https://cibcorapp:9083/Corporate/app/notify/">https://cibcorapp:9083/Corporate/app/notify/</a></td>
+                    <td>225051</td>
+                    <td>0</td>
+                    <td>1</td>
+					<td>1</td>
+					<td></td>
+          <td>266.701613ms</td>
+                    <td></td>
+                </tr>
+            
+                <div style="display:none">
+|result_raw|302|offers|https://bandhanbankonline.com/Corporate/app/offers|https://cibcorapp:9083/Corporate/app/offers/|228985|0|1|1||
+                </div>
+                <tr class="result-302" style="background-color: #bbbbe6;">
+                    <td><font color="black" class="status-code">302</font></td>
+                    
+                        <td>offers</td>
+                    
+                    <td><a href="https://bandhanbankonline.com/Corporate/app/offers">https://bandhanbankonline.com/Corporate/app/offers</a></td>
+                    <td><a href="https://cibcorapp:9083/Corporate/app/offers/">https://cibcorapp:9083/Corporate/app/offers/</a></td>
+                    <td>228985</td>
+                    <td>0</td>
+                    <td>1</td>
+					<td>1</td>
+					<td></td>
+          <td>473.526335ms</td>
+                    <td></td>
+                </tr>
+            
+                <div style="display:none">
+|result_raw|302|paymentgateway|https://bandhanbankonline.com/Corporate/app/paymentgateway|https://cibcorapp:9083/Corporate/app/paymentgateway/|240773|0|1|1||
+                </div>
+                <tr class="result-302" style="background-color: #bbbbe6;">
+                    <td><font color="black" class="status-code">302</font></td>
+                    
+                        <td>paymentgateway</td>
+                    
+                    <td><a href="https://bandhanbankonline.com/Corporate/app/paymentgateway">https://bandhanbankonline.com/Corporate/app/paymentgateway</a></td>
+                    <td><a href="https://cibcorapp:9083/Corporate/app/paymentgateway/">https://cibcorapp:9083/Corporate/app/paymentgateway/</a></td>
+                    <td>240773</td>
+                    <td>0</td>
+                    <td>1</td>
+					<td>1</td>
+					<td></td>
+          <td>342.745171ms</td>
+                    <td></td>
+                </tr>
+            
+                <div style="display:none">
+|result_raw|302|payments|https://bandhanbankonline.com/Corporate/app/payments|https://cibcorapp:9083/Corporate/app/payments/|240799|0|1|1||
+                </div>
+                <tr class="result-302" style="background-color: #bbbbe6;">
+                    <td><font color="black" class="status-code">302</font></td>
+                    
+                        <td>payments</td>
+                    
+                    <td><a href="https://bandhanbankonline.com/Corporate/app/payments">https://bandhanbankonline.com/Corporate/app/payments</a></td>
+                    <td><a href="https://cibcorapp:9083/Corporate/app/payments/">https://cibcorapp:9083/Corporate/app/payments/</a></td>
+                    <td>240799</td>
+                    <td>0</td>
+                    <td>1</td>
+					<td>1</td>
+					<td></td>
+          <td>279.70183ms</td>
+                    <td></td>
+                </tr>
+            
+                <div style="display:none">
+|result_raw|302|register|https://bandhanbankonline.com/Corporate/app/register|https://cibcorapp:9083/Corporate/app/register/|268783|0|1|1||
+                </div>
+                <tr class="result-302" style="background-color: #bbbbe6;">
+                    <td><font color="black" class="status-code">302</font></td>
+                    
+                        <td>register</td>
+                    
+                    <td><a href="https://bandhanbankonline.com/Corporate/app/register">https://bandhanbankonline.com/Corporate/app/register</a></td>
+                    <td><a href="https://cibcorapp:9083/Corporate/app/register/">https://cibcorapp:9083/Corporate/app/register/</a></td>
+                    <td>268783</td>
+                    <td>0</td>
+                    <td>1</td>
+					<td>1</td>
+					<td></td>
+          <td>289.412486ms</td>
+                    <td></td>
+                </tr>
+            
+                <div style="display:none">
+|result_raw|302|reports|https://bandhanbankonline.com/Corporate/app/reports|https://cibcorapp:9083/Corporate/app/reports/|270843|0|1|1||
+                </div>
+                <tr class="result-302" style="background-color: #bbbbe6;">
+                    <td><font color="black" class="status-code">302</font></td>
+                    
+                        <td>reports</td>
+                    
+                    <td><a href="https://bandhanbankonline.com/Corporate/app/reports">https://bandhanbankonline.com/Corporate/app/reports</a></td>
+                    <td><a href="https://cibcorapp:9083/Corporate/app/reports/">https://cibcorapp:9083/Corporate/app/reports/</a></td>
+                    <td>270843</td>
+                    <td>0</td>
+                    <td>1</td>
+					<td>1</td>
+					<td></td>
+          <td>333.42787ms</td>
+                    <td></td>
+                </tr>
+            
+                <div style="display:none">
+|result_raw|302|services|https://bandhanbankonline.com/Corporate/app/services|https://cibcorapp:9083/Corporate/app/services/|290007|0|1|1||
+                </div>
+                <tr class="result-302" style="background-color: #bbbbe6;">
+                    <td><font color="black" class="status-code">302</font></td>
+                    
+                        <td>services</td>
+                    
+                    <td><a href="https://bandhanbankonline.com/Corporate/app/services">https://bandhanbankonline.com/Corporate/app/services</a></td>
+                    <td><a href="https://cibcorapp:9083/Corporate/app/services/">https://cibcorapp:9083/Corporate/app/services/</a></td>
+                    <td>290007</td>
+                    <td>0</td>
+                    <td>1</td>
+					<td>1</td>
+					<td></td>
+          <td>250.854766ms</td>
+                    <td></td>
+                </tr>
+            
+                <div style="display:none">
+|result_raw|500|terms.jsp|https://bandhanbankonline.com/Corporate/app/terms.jsp||320442|2598|577|70|text/html;charset=ISO-8859-1|
+                </div>
+                <tr class="result-500" style="background-color: #de8dc1;">
+                    <td><font color="black" class="status-code">500</font></td>
+                    
+                        <td>terms.jsp</td>
+                    
+                    <td><a href="https://bandhanbankonline.com/Corporate/app/terms.jsp">https://bandhanbankonline.com/Corporate/app/terms.jsp</a></td>
+                    <td><a href=""></a></td>
+                    <td>320442</td>
+                    <td>2598</td>
+                    <td>577</td>
+					<td>70</td>
+					<td>text/html;charset=ISO-8859-1</td>
+          <td>245.478081ms</td>
+                    <td></td>
+                </tr>
+            
+                <div style="display:none">
+|result_raw|302|transfers|https://bandhanbankonline.com/Corporate/app/transfers|https://cibcorapp:9083/Corporate/app/transfers/|330169|0|1|1||
+                </div>
+                <tr class="result-302" style="background-color: #bbbbe6;">
+                    <td><font color="black" class="status-code">302</font></td>
+                    
+                        <td>transfers</td>
+                    
+                    <td><a href="https://bandhanbankonline.com/Corporate/app/transfers">https://bandhanbankonline.com/Corporate/app/transfers</a></td>
+                    <td><a href="https://cibcorapp:9083/Corporate/app/transfers/">https://cibcorapp:9083/Corporate/app/transfers/</a></td>
+                    <td>330169</td>
+                    <td>0</td>
+                    <td>1</td>
+					<td>1</td>
+					<td></td>
+          <td>224.905483ms</td>
+                    <td></td>
+                </tr>
+            
+                <div style="display:none">
+|result_raw|302|upload|https://bandhanbankonline.com/Corporate/app/upload|https://cibcorapp:9083/Corporate/app/upload/|338229|0|1|1||
+                </div>
+                <tr class="result-302" style="background-color: #bbbbe6;">
+                    <td><font color="black" class="status-code">302</font></td>
+                    
+                        <td>upload</td>
+                    
+                    <td><a href="https://bandhanbankonline.com/Corporate/app/upload">https://bandhanbankonline.com/Corporate/app/upload</a></td>
+                    <td><a href="https://cibcorapp:9083/Corporate/app/upload/">https://cibcorapp:9083/Corporate/app/upload/</a></td>
+                    <td>338229</td>
+                    <td>0</td>
+                    <td>1</td>
+					<td>1</td>
+					<td></td>
+          <td>189.418464ms</td>
+                    <td></td>
+                </tr>
+            
+                <div style="display:none">
+|result_raw|302|widgets|https://bandhanbankonline.com/Corporate/app/widgets|https://cibcorapp:9083/Corporate/app/widgets/|355757|0|1|1||
+                </div>
+                <tr class="result-302" style="background-color: #bbbbe6;">
+                    <td><font color="black" class="status-code">302</font></td>
+                    
+                        <td>widgets</td>
+                    
+                    <td><a href="https://bandhanbankonline.com/Corporate/app/widgets">https://bandhanbankonline.com/Corporate/app/widgets</a></td>
+                    <td><a href="https://cibcorapp:9083/Corporate/app/widgets/">https://cibcorapp:9083/Corporate/app/widgets/</a></td>
+                    <td>355757</td>
+                    <td>0</td>
+                    <td>1</td>
+					<td>1</td>
+					<td></td>
+          <td>219.799001ms</td>
+                    <td></td>
+                </tr>
+            
+        </tbody>
+      </table>
+
+        </div>
+        <br /><br />
+      </div>
+    </main>
+
+    
+	<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.10.20/js/jquery.dataTables.js"></script>
+    <script>
+    $(document).ready(function() {
+        $('#ffufreport').DataTable(
+            {
+                "aLengthMenu": [
+                    [250, 500, 1000, 2500, -1],
+                    [250, 500, 1000, 2500, "All"]
+                ]
+            }
+        )
+        $('select').formSelect();
+        });
+    </script>
+    <style>
+      body {
+        display: flex;
+        min-height: 100vh;
+        flex-direction: column;
+      }
+
+      main {
+        flex: 1 0 auto;
+      }
+    </style>
+  </body>
+</html>
+
+	
