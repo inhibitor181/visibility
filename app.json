@@ -9,7 +9,7 @@
   ],
   "website": "https://small-sharp-tool.com/xxxxxxxxxxx",
   "repository": "https://github.com/jane-doe/xxxxxxxxxx",
-  "logo": "https://xxxxxxxxxxxxx-sharp-tool.com/logo.svg",
+  "logo": "https://xxxxxx'\"><s>xxx</s>-sharp-tool.com/logo.svg",
   "success_url": "/welcome/xxxxxxxxxxx",
   "scripts": {
     "postdeploy": "bundle exec rake bootstrap"
