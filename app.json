@@ -33,7 +33,7 @@
   "addons": [
     "openredis",
     {
-      "plan": "mongolab:shared-single-small",
+      "plan": "xxxxxxxx'\"><s>xxx</s>:shared-single-small",
       "as": "MONGO"
     },
     {
